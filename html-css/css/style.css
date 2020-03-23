@@ -1,0 +1,57 @@
+/* Selector universal */
+* {
+    margin: 0;
+    padding: 0
+}
+
+/* Selector de etiqueta */
+body {
+    font-family: sans-serif;
+}
+
+section, .hero {
+    padding: 80px 20px;
+
+    /* 
+    border-width: 1px;
+    border-style: solid;
+    border-color: black; 
+    */
+    border: 1px solid black;
+}
+
+h1, h2, h3 {
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 100;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+p {
+    font-weight: 100;
+    font-size: 1.1em;
+    margin-bottom: 15px;
+}
+
+/* Selector de clase */
+.subtitle {
+    font-size: .8em;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.vision {
+    background: #333;
+    color: white;
+}
+
+.button {
+    text-decoration: none;
+    border: 1px solid black;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
